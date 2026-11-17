@@ -17,7 +17,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.lumen.launcher.tv"
+        applicationId = "com.zzz.mytv"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
