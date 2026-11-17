@@ -17,11 +17,12 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.zzz.mytv"
+        applicationId = "com.lumen.launcher.tv"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+        ndk { abiFilters += listOf("armeabi-v7a") }
     }
 
     compileOptions {
