@@ -7,6 +7,15 @@ android {
     namespace = "com.example.tvlauncher"
     compileSdk = 34
 
+    signingConfigs {
+        getByName("debug") {
+            storeFile = file("lumen.keystore")
+            storePassword = "lumen123"
+            keyAlias = "lumen"
+            keyPassword = "lumen123"
+        }
+    }
+
     defaultConfig {
         applicationId = "com.lumen.launcher.tv"
         minSdk = 21
